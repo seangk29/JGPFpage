@@ -7,8 +7,8 @@
 </head>
 <body>
 <div clas = "container-fluid py-5 text-start text-sm center" > 
-<h1  class = "display-5 fw-bold"> My first bootstrap page!</h1>
-<p class = "col-md-8 fs-4"> Resize this responsive page to see this effect</p>
+<h1  class = "display-5 fw-bold"> Sean Keaveney's Elements Page!</h1>
+<p class = "col-md-8 fs-4"> This website's purpose is to display 5 elements using Babylon.js</p>
 
 
 
@@ -17,8 +17,8 @@
 
 <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a  class = "navbar-brand" href="#" ><img src = "assetsl/Cosmo PlayerShip.png" height="16" width="16" alt = "logo" width 50px a>
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a  class = "navbar-brand" href="#" ><img src = "assetsl/Cosmo PlayerShip.png" height="64" width="64" alt = "logo" width 50px a>
+    <a class="navbar-brand" href="#">Where to?</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,36 +32,81 @@
           <a class="nav-link" href="#">Design</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="elements/Test Card/index.html">Play Game</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-        <li class = "nav-item dropdown">
-
-          <a class = "nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle=" dropdown" aria-expanded="false">Games</a>
-
-        <a class = "dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-      <ul>
-          <li> <a class = "dropdown-item" href= "#" > AlienShip </a></li>
-          <li> <a class = "dropdown-item" href= "#" > PlayerShip </a></li>
-          <li> <a class = "dropdown-item" href= "#" > The Skyscraper </a></li>
-      </ul>
     </div>
   </div>
 </nav>
+
+<style>
+.dropdown {
+  position: relative;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside dropdown content */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change background color of dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color: #000000;
+}
+</style>
+
+<div class="dropdown">
+  <button class="dropbtn">Elements</button>
+  <div class="dropdown-content">
+    <a href="#">Element 1</a>
+    <a href="#">Element 2</a>
+    <a href="#">Element 3</a>
+    <a href="#">Element 4</a>
+    <a href="#">Element 5</a>
+  </div>
+</div>
+
 
 <div class = "container-fluid mt-3" > 
 <div class = "row "> 
 
   <div class=" col-sm-4"> </div>
-  <h3 style = "text-align: center;"> AlienShip</h3>
+  <h3 style = "text-align:center;"> AlienShip</h3>
   <p> Aliens in Cosmo are in ships and fight the player and it's really cooooool!!</p>
   <p> Aliens in Cosmo are in ships and fight the player!!</p>
 
   
   <div class = "col-sm-4"> </div>
-   <h3 style = "text-align: center;"> PlayerShip</h3>
+   <h3 style = "text-align:center;"> PlayerShip</h3>
   <p> Aliens in Cosmo are in ships and fight the player and it's really cooooool!!</p>
   <p> Aliens in Cosmo are in ships and fight the player!!</p>
   <p> Aliens in Cosmo are in ships and fight the player and it's really cooooool!!</p>
@@ -69,7 +114,7 @@
 
   
   <div class = "col-sm-4"> </div>
-  <h3 style = "text-align: center;"> TheSkyscraper</h3>
+  <h3 style = "text-align:center;"> TheSkyscraper</h3>
   <p> Aliens in Cosmo are in ships and fight the player and it's really cooooool!!</p>
   <p> Aliens in Cosmo are in ships and fight the player!!</p>
   <p> Aliens in Cosmo are in ships and fight the player and it's really cooooool!!</p>
@@ -134,8 +179,6 @@
       </div>
     </div>
   </div>
-
-
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
