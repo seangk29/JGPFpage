@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "vite": "^7.2.7"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "^8.41.1",
+    "@babylonjs/havok": "^1.3.11",
+    "@babylonjs/inspector": "^8.41.1",
+    "@babylonjs/loaders": "^8.41.1",
+
+    "element3build": "tsc && vite build element3",
+    "element3preview ": "vite preview element3",
+    
+    "element5build": "tsc && vite build element5",
+    "element5preview ": "vite preview element5preview",
+
+    "player04build": "tsc && vite build player04",
+    "player04preview": "vite build player04preview",
+
+    "villagebuild": "tsc && vite build villagebuild",
+    "villagepreview": "vite build villagepreview",
+
+    "meshes01build": "tsc && vite build meshses01build",
+    "meshes01preview": "vite build meshes01preview"
+
+
+
+
+  }
+}
